@@ -40,11 +40,15 @@ public class Employee {
 		return records;
 	}
 
+	
+
+	
+
 	public void setRecords(List<Record> records) {
 		this.records = records;
 	}
 
-	public Employee(long eid, String name, String phone, List<Record> records) {
+	public Employee(Long eid, String name, String phone, List<Record> records) {
 		super();
 		this.eid = eid;
 		this.name = name;
@@ -52,7 +56,7 @@ public class Employee {
 		this.records = records;
 	}
 
-	public Employee(long eid, String name, String phone) {
+	public Employee(Long eid, String name, String phone) {
 		super();
 		this.eid = eid;
 		this.name = name;
