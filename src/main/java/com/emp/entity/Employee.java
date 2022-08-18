@@ -4,17 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Employee {
-	private long eid;
+	private Long eid;
 	private String name;
 	private String phone;
 	
 	List<Record> records = new ArrayList<>();
 
-	public long getEid() {
+	
+
+	public Long getEid() {
 		return eid;
 	}
 
-	public void setEid(long eid) {
+	public void setEid(Long eid) {
 		this.eid = eid;
 	}
 
